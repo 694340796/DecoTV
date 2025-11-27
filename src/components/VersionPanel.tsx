@@ -42,9 +42,9 @@ export const VersionPanel: React.FC<VersionPanelProps> = ({
   const [latestVersion, setLatestVersion] = useState<string>('');
   const [showRemoteContent, setShowRemoteContent] = useState(false);
   const UPDATE_REPO =
-    process.env.NEXT_PUBLIC_UPDATE_REPO || 'Decohererk/DecoTV';
+    process.env.NEXT_PUBLIC_UPDATE_REPO || '846945';
   const REPO_URL =
-    process.env.NEXT_PUBLIC_REPO_URL || `https://github.com/${UPDATE_REPO}`;
+    process.env.NEXT_PUBLIC_REPO_URL || `https://chat.top/${UPDATE_REPO}`;
 
   // 确保组件已挂载
   useEffect(() => {
@@ -374,7 +374,7 @@ export const VersionPanel: React.FC<VersionPanelProps> = ({
                     className='inline-flex items-center justify-center gap-2 px-3 py-2 bg-yellow-600 hover:bg-yellow-700 text-white text-xs sm:text-sm rounded-lg transition-colors shadow-sm w-full'
                   >
                     <Download className='w-3 h-3 sm:w-4 sm:h-4' />
-                    前往仓库
+                    前往黑盒语音
                   </a>
                 </div>
               </div>
@@ -404,7 +404,7 @@ export const VersionPanel: React.FC<VersionPanelProps> = ({
                     className='inline-flex items-center justify-center gap-2 px-3 py-2 bg-green-600 hover:bg-green-700 text-white text-xs sm:text-sm rounded-lg transition-colors shadow-sm w-full'
                   >
                     <CheckCircle className='w-3 h-3 sm:w-4 sm:h-4' />
-                    前往仓库
+                    黑盒语音
                   </a>
                 </div>
               </div>
