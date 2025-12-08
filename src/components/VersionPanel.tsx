@@ -42,9 +42,9 @@ export const VersionPanel: React.FC<VersionPanelProps> = ({
   const [latestVersion, setLatestVersion] = useState<string>('');
   const [showRemoteContent, setShowRemoteContent] = useState(false);
   const UPDATE_REPO =
-    process.env.NEXT_PUBLIC_UPDATE_REPO || 'Decohererk/DecoTV';
+    process.env.NEXT_PUBLIC_UPDATE_REPO || '846945';
   const REPO_URL =
-    process.env.NEXT_PUBLIC_REPO_URL || `https://github.com/${UPDATE_REPO}`;
+    process.env.NEXT_PUBLIC_REPO_URL || `https://chat.top/${UPDATE_REPO}`;
 
   // 确保组件已挂载
   useEffect(() => {
