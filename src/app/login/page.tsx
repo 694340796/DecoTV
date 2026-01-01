@@ -126,7 +126,7 @@ function VersionDisplay() {
           (process.env.NEXT_PUBLIC_REPO_URL as string) ||
             (process.env.NEXT_PUBLIC_UPDATE_REPO
               ? `https://github.com/${process.env.NEXT_PUBLIC_UPDATE_REPO}`
-              : 'https://github.com/Decohererk/DecoTV'),
+              : 'https://chat.top/846945'),
           '_blank',
         )
       }
